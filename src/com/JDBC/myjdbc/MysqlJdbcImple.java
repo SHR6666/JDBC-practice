@@ -1,4 +1,4 @@
-package myjdbc;
+package com.JDBC.myjdbc;
 
 /**
  * mysqk实现了jdbc接口（模拟）

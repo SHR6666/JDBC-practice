@@ -1,4 +1,4 @@
-package myjdbc;
+package com.JDBC.myjdbc;
 
 public class TestJDBC {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package myjdbc;
+package com.JDBC.myjdbc;
 
 /**
  * 我们规定的JDBC接口（方法）

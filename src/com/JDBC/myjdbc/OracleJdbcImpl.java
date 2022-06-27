@@ -1,4 +1,4 @@
-package myjdbc;
+package com.JDBC.myjdbc;
 
 /**
  * 模拟Oracle数据库实现jdbc
