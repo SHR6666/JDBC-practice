@@ -25,8 +25,9 @@ public class Jdbc01 {
         //说明，这个user和password是规定好的
         properties.setProperty("user", "root"); //用户
         properties.setProperty("password", "123456"); //密码
-
         Connection connect = driver.connect(url, properties);
+
+
         //3.执行sql语句
 //        String sql = "insert into actor value(null, '刘德华', '男', '1970-11-11', '110')";
         //修改
