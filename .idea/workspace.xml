@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="585986ca-8baa-433f-8160-705aa7e27a7a" name="变更" comment="JDBC练习操作">
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/resultset_/ResultSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cf00d9c9-9a0b-414d-9d45-f69f357b3710.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cf00d9c9-9a0b-414d-9d45-f69f357b3710.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/statement_/Statement_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <recent name="D:\JavaProject\JDBC\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ResultSet">
+  <component name="RunManager" selected="应用程序.Statement_">
     <configuration name="JdbcWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training01.JdbcWork" />
       <module name="JDBC" />
@@ -92,18 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcConn.connect03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Statement_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.statement_.Statement_" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JDBC.*" />
+          <option name="PATTERN" value="com.JDBC.statement_.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.JDBC" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.JdbcConn" />
-      <option name="METHOD_NAME" value="connect03" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Statement_" />
         <item itemvalue="应用程序.ResultSet" />
         <item itemvalue="应用程序.JdbcWork" />
         <item itemvalue="JUnit.JdbcConn.connect05" />
         <item itemvalue="JUnit.JdbcConn.connect04" />
-        <item itemvalue="JUnit.JdbcConn.connect03" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656253877055</updated>
       <workItem from="1656253879140" duration="32199000" />
-      <workItem from="1656562856467" duration="8663000" />
+      <workItem from="1656562856467" duration="11455000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC练习操作">
       <created>1656299242273</created>
@@ -189,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656489999926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JDBC练习操作">
+      <created>1656775503653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656775503653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
