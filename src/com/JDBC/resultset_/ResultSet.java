@@ -47,6 +47,7 @@ public class ResultSet {
         //5.使用while取出数据
         while (resultSet.next()) {  //让光标向后移动
             int id = resultSet.getInt(1); //获取该行的第一列数据
+            //int id1 = resultSet.getInt("id"); //通过列名来获取值
             String name = resultSet.getString(2);  //获取该行的第二列
             String sex = resultSet.getString(3);
             Date date = resultSet.getDate(4);

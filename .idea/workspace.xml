@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="585986ca-8baa-433f-8160-705aa7e27a7a" name="变更" comment="JDBC练习操作">
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/preparedstatement_/PreparedStatementDML_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/preparedstatement_/PreparedStatement_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training01/JdbcPrepareStatementWork01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/utils/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/utils/JDBCUtils_Use.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/JDBC/resultset_/ResultSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JDBC/resultset_/ResultSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="D:\JavaProject\JDBC\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.JdbcPrepareStatementWork01">
+  <component name="RunManager" selected="JUnit.JDBCUtils_Use.deleteTest">
     <configuration name="JdbcPrepareStatementWork01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training01.JdbcPrepareStatementWork01" />
       <module name="JDBC" />
@@ -93,52 +93,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreparedStatement_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.preparedstatement_.PreparedStatement_" />
+    <configuration name="JDBCUtils_Use.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JDBC.preparedstatement_.*" />
+          <option name="PATTERN" value="com.JDBC.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.JDBC.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.utils.JDBCUtils_Use" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.resultset_.ResultSet" />
+    <configuration name="JDBCUtils_Use.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JDBC.resultset_.*" />
+          <option name="PATTERN" value="com.JDBC.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.JDBC.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.utils.JDBCUtils_Use" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Statement_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.statement_.Statement_" />
+    <configuration name="JDBCUtils_Use.testDML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JDBC.statement_.*" />
+          <option name="PATTERN" value="com.JDBC.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.JDBC.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.utils.JDBCUtils_Use" />
+      <option name="METHOD_NAME" value="testDML" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JDBCUtils_Use.deleteTest" />
+        <item itemvalue="JUnit.JDBCUtils_Use.insertTest" />
+        <item itemvalue="JUnit.JDBCUtils_Use.testDML" />
         <item itemvalue="应用程序.JdbcPrepareStatementWork01" />
         <item itemvalue="应用程序.PreparedStatementDML_" />
-        <item itemvalue="应用程序.PreparedStatement_" />
-        <item itemvalue="应用程序.Statement_" />
-        <item itemvalue="应用程序.ResultSet" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +160,8 @@
       <option name="presentableId" value="Default" />
       <updated>1656253877055</updated>
       <workItem from="1656253879140" duration="32199000" />
-      <workItem from="1656562856467" duration="23276000" />
+      <workItem from="1656562856467" duration="31635000" />
+      <workItem from="1657170826163" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC练习操作">
       <created>1656299242273</created>
@@ -195,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656814930376</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JDBC练习操作">
+      <created>1656941955352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656941955352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
