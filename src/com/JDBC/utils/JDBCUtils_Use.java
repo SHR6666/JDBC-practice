@@ -1,11 +1,10 @@
 package com.JDBC.utils;
 
 import org.junit.Test;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -13,9 +12,39 @@ import java.util.Date;
  */
 public class JDBCUtils_Use {
     public static void main(String[] args) {
-
+        testSelect();
     }
-    @Test
+    @SuppressWarnings("all")
+    public static void testSelect(){
+        //得到连接
+        Connection connection = null;
+        //2.组织一个sql语句
+        String sql = "select * FROM  actor where id = ?";
+        PreparedStatement preparedStatement = null;
+        ResultSet set = null;
+        try {
+            connection = JDBCUtils.getConnection();
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1,5);
+            set = preparedStatement.executeQuery();
+            //遍历该结果集
+            while(set.next()){
+                int id = set.getInt("id");
+                String name = set.getString("NAME");
+                String sex = set.getString("sex");
+                Date borndate = set.getDate("borndate");
+                String phone = set.getString("phone");
+                System.out.println(id + "\t" + name + "\t" + sex + "\t" + borndate + "\t" + phone);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            //关闭资源
+            JDBCUtils.close(set, preparedStatement, connection);
+        }
+    }
+
+//    @Test
     public void testDML() { //insert update,delete
         //得到连接
         Connection connection = null;
@@ -40,7 +69,7 @@ public class JDBCUtils_Use {
     /**
      * 插入数据
      */
-    @Test
+//    @Test
     public void insertTest(){
         Connection connection = null;
         PreparedStatement preparedStatement = null;
@@ -64,7 +93,7 @@ public class JDBCUtils_Use {
     /**
      * PreparedStatement删除操作
      */
-    @Test
+//    @Test
     public void deleteTest(){
         Connection connection = null;
         PreparedStatement preparedStatement = null;
