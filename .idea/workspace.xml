@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="585986ca-8baa-433f-8160-705aa7e27a7a" name="变更" comment="JDBC练习操作">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/c3p0-0.9.5.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mchange-commons-java-0.2.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/C3P0_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/druid-1.2.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/JDBCUtilsByDruid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/JDBCUtilsByDruid_USE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cf00d9c9-9a0b-414d-9d45-f69f357b3710.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cf00d9c9-9a0b-414d-9d45-f69f357b3710.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/JDBC/dateSource/C3P0_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/C3P0_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +56,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProject/JDBC/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProject/JDBC/libs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,59 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaProject\JDBC\src" />
       <recent name="D:\JavaProject\JDBC\libs" />
+      <recent name="D:\JavaProject\JDBC\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C3P0_.testC3P0_02">
-    <configuration name="Batch_.batch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDBC.batch_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.JDBC.batch_" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.batch_.Batch_" />
-      <option name="METHOD_NAME" value="batch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Batch_.noBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDBC.batch_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.JDBC.batch_" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.batch_.Batch_" />
-      <option name="METHOD_NAME" value="noBatch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C3P0_.testC3P0_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDBC.dateSource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.C3P0_" />
-      <option name="METHOD_NAME" value="testC3P0_01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JDBCUtilsByDruid_USE.testSelectArrayList">
     <configuration name="C3P0_.testC3P0_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
@@ -138,17 +93,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transaction_.useTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Druid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JDBC.transaction_.*" />
+          <option name="PATTERN" value="com.JDBC.dateSource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.JDBC.transaction_" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.transaction_.Transaction_" />
-      <option name="METHOD_NAME" value="useTransaction" />
+      <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.Druid" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Druid.testDruid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDBC.dateSource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.Druid" />
+      <option name="METHOD_NAME" value="testDruid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCUtilsByDruid_USE.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDBC.dateSource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.JDBCUtilsByDruid_USE" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCUtilsByDruid_USE.testSelectArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JDBC.dateSource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.JDBCUtilsByDruid_USE" />
+      <option name="METHOD_NAME" value="testSelectArrayList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JDBCUtilsByDruid_USE.testSelectArrayList" />
+        <item itemvalue="JUnit.JDBCUtilsByDruid_USE.testSelect" />
+        <item itemvalue="JUnit.Druid.testDruid" />
         <item itemvalue="JUnit.C3P0_.testC3P0_02" />
-        <item itemvalue="JUnit.C3P0_.testC3P0_01" />
-        <item itemvalue="JUnit.Batch_.batch" />
-        <item itemvalue="JUnit.Batch_.noBatch" />
-        <item itemvalue="JUnit.Transaction_.useTransaction" />
+        <item itemvalue="JUnit.Druid" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,9 @@
       <workItem from="1656253879140" duration="32199000" />
       <workItem from="1656562856467" duration="31635000" />
       <workItem from="1657170826163" duration="25836000" />
-      <workItem from="1658122378885" duration="1158000" />
+      <workItem from="1658122378885" duration="12024000" />
+      <workItem from="1659575971707" duration="3635000" />
+      <workItem from="1659942872687" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC练习操作">
       <created>1656299242273</created>
@@ -261,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657896513264</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="JDBC练习操作">
+      <created>1658124603686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658124603686</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

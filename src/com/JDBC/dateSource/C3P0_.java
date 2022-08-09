@@ -57,12 +57,14 @@ public class C3P0_ {
         ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource("jdbcUrl");
         //测试5000次
         long start = System.currentTimeMillis();
-        for (int i = 0; i < 5000; i++){
+        for (int i = 0; i < 500000; i++){
             Connection connection = comboPooledDataSource.getConnection();
 //            System.out.println("连接成功");
             connection.close();
         }
         long end = System.currentTimeMillis();
-        System.out.println("c3o0 第二种方式耗时：" + (end - start));
+        //c3p0 第二种操作5000次方式耗时：526
+        //c3p0 第二种操作500000次方式耗时：1724
+        System.out.println("c3p0 第二种操作500000次方式耗时：" + (end - start));
     }
 }
