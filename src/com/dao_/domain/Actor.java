@@ -1,4 +1,4 @@
-package com.JDBC.dateSource;
+package com.dao_.domain;
 
 import java.util.Date;
 
@@ -63,10 +63,10 @@ public class Actor {
 
     @Override
     public String toString() {
-        return "\r\n"+ "actor{" +
+        return "\n"+ "actor{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", borndate='" + borndate + '\'' +
-                '}'+"\r\n";
+                '}'+"\n";
     }
 }

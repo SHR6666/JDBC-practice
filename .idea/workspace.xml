@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="585986ca-8baa-433f-8160-705aa7e27a7a" name="变更" comment="JDBC练习操作">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/druid-1.2.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/JDBCUtilsByDruid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/JDBCUtilsByDruid_USE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/DBUtils_USE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao_/dao/ActorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao_/dao/BasicDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao_/domain/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao_/test/TestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dao_/utils/JDBCUtilsByDruid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/cf00d9c9-9a0b-414d-9d45-f69f357b3710.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cf00d9c9-9a0b-414d-9d45-f69f357b3710.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/JDBC/dateSource/C3P0_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/C3P0_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/JDBC/dateSource/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JDBC/dateSource/Actor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +75,13 @@
       <recent name="D:\JavaProject\JDBC\libs" />
       <recent name="D:\JavaProject\JDBC\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dao_.domain" />
+      <recent name="com.dao_.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCUtilsByDruid_USE.testSelectArrayList">
-    <configuration name="C3P0_.testC3P0_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDAO.testActorDAO">
+    <configuration name="DBUtils_USE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -86,29 +90,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.C3P0_" />
-      <option name="METHOD_NAME" value="testC3P0_02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Druid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JDBC.dateSource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.Druid" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.DBUtils_USE" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Druid.testDruid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DBUtils_USE.testQueryMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +105,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.Druid" />
-      <option name="METHOD_NAME" value="testDruid" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.DBUtils_USE" />
+      <option name="METHOD_NAME" value="testQueryMany" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCUtilsByDruid_USE.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DBUtils_USE.testQuerySingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.JDBC.dateSource" />
-      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.JDBCUtilsByDruid_USE" />
-      <option name="METHOD_NAME" value="testSelect" />
+      <option name="MAIN_CLASS_NAME" value="com.JDBC.dateSource.DBUtils_USE" />
+      <option name="METHOD_NAME" value="testQuerySingle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,13 +144,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDAO.testActorDAO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dao_.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dao_.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dao_.test.TestDAO" />
+      <option name="METHOD_NAME" value="testActorDAO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDAO.testActorDAO" />
+        <item itemvalue="JUnit.DBUtils_USE.testQuerySingle" />
+        <item itemvalue="JUnit.DBUtils_USE.testQueryMany" />
+        <item itemvalue="JUnit.DBUtils_USE" />
         <item itemvalue="JUnit.JDBCUtilsByDruid_USE.testSelectArrayList" />
-        <item itemvalue="JUnit.JDBCUtilsByDruid_USE.testSelect" />
-        <item itemvalue="JUnit.Druid.testDruid" />
-        <item itemvalue="JUnit.C3P0_.testC3P0_02" />
-        <item itemvalue="JUnit.Druid" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +183,8 @@
       <workItem from="1657170826163" duration="25836000" />
       <workItem from="1658122378885" duration="12024000" />
       <workItem from="1659575971707" duration="3635000" />
-      <workItem from="1659942872687" duration="1557000" />
+      <workItem from="1659942872687" duration="2770000" />
+      <workItem from="1660091789767" duration="19851000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC练习操作">
       <created>1656299242273</created>
@@ -272,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658124603686</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="JDBC练习操作">
+      <created>1660024417538</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660024417538</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
